@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Local runtime database (do not commit)
+ege_battle/battle.db
+ege_battle/*.db-wal
+ege_battle/*.db-shm
+
+# IDE/OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
